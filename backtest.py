@@ -53,7 +53,7 @@ if __name__ == '__main__':
     
     # Ma'lumotlarni yuklash
     data = bt.feeds.GenericCSVData(
-        dataname='data/EURUSD_M1.csv',
+        dataname='data/DAT_MT_EURUSD_M1_202506.csv',
         dtformat=('%Y-%m-%d %H:%M:%S'),
         datetime=0, open=1, high=2, low=3, close=4, volume=5,
         timeframe=bt.TimeFrame.Minutes
